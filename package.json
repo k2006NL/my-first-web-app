@@ -1,0 +1,14 @@
+{
+  "name": "deploy-github-pages",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "scripts": {
+    "test:page": "NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest -- tests/page.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "overrides": {
+    "glob": "11.0.1"
+  }
+}
